@@ -9,7 +9,6 @@ const EightBall = ({question, answers}) => {
         const idx = Math.floor(Math.random() * answers.length)
         setMessage(answers[idx].msg);
         setClr(answers[idx].color);
-        console.log("hi");
     }
     const restart = () => {
         setMessage(question[0].msg);
